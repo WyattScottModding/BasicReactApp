@@ -1,0 +1,32 @@
+.cookie-maker-section{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.cookie-maker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.cookie-maker-row-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.horizontal-wood {
+    width: 100%;
+    height: 30px;
+    z-index: 0;
+}

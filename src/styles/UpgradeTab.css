@@ -1,0 +1,36 @@
+.cookie-upgrade-tab {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-maker-image-upgrade {
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.tab-background-upgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tooltip {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
+    right: 0; /* Keep it anchored to the right */
+}

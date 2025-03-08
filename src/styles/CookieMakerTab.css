@@ -1,0 +1,71 @@
+.cookie-maker-tab {
+    position: relative;
+    cursor: pointer;
+    left: 0;
+    margin-left: 0;
+}
+
+.tab-background {
+    width: 100%;
+    right: 10px;
+    height: auto;
+}
+
+.cookie-maker-info {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.cookie-maker-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.cookie-maker-cost {
+    font-size: 14px;
+    font-weight: bold;
+    color: limegreen;
+    margin-bottom: 20px;
+}
+
+.cookie-maker-count {
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.cookie-maker-image {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.cookie-maker-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    gap: 20px;
+}
+
+.tooltip {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
+    right: 0; /* Keep it anchored to the right */
+}

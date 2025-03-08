@@ -1,0 +1,35 @@
+.store-section{
+    width: 25%;
+    position: relative;
+    right: 0;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.horizontal-wood {
+    width: 100%;
+    height: 30px;
+    z-index: 0;
+}
+
+.upgrade-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+}
