@@ -13,7 +13,7 @@ import StoreSection from "./components/StoreSection";
 
 function App() {
     
-    const [cookieCount, setCookieCount] = useState(100000);
+    const [cookieCount, setCookieCount] = useState(0);
     const [cookieRate, setCookieRate] = useState(0);
     
     const [cookieMakers, setCookieMakers] = useState([
